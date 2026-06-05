@@ -82,3 +82,12 @@ POST api/upload_avatar.php
 ## Project Status
 This project is currently under development. 
 The web application is functional locally and is being prepared for mobile integration and possible deployment to free PHP/MySQL hosting.
+
+## Group Members
+<lu>
+  <li>Fabia, Sean Ivan</li>
+  <li>Pinca, Paolo Leandro</li>
+  <li>Ordonia, Marl June</li>
+  <li>Quitorio, Adielyn</li>
+  <li>Balat, Khrister John</li>
+</lu>

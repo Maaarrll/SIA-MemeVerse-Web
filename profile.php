@@ -121,13 +121,15 @@ function renderProfile(user) {
                     <div class="profile-name-row">
                         <h2 class="profile-username">@${escapeHtml(user.username)}</h2>
 
-                        ${
-                            user.is_own_profile
-                            ? `<button class="edit-profile-btn" data-bs-toggle="modal" data-bs-target="#editProfileModal">
-                                    Edit Profile
-                               </button>`
-                            : ''
-                        }
+                       ${
+                        user.is_own_profile
+                        ? `<button class="edit-profile-btn" data-bs-toggle="modal" data-bs-target="#editProfileModal">
+                                 Edit Profile
+                             </button>`
+                        : `<a class="edit-profile-btn text-decoration-none" href="<?php echo BASE_URL; ?>/messages.php?user_id=${user.id}">
+                                Message
+                           </a>`
+}
                     </div>
 
                     <div class="profile-stats">

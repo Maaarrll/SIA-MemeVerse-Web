@@ -51,6 +51,12 @@ require_once __DIR__ . '/functions.php';
                     </li>
 
                     <li class="nav-item">
+                          <a class="nav-link" href="<?php echo BASE_URL; ?>/messages.php">
+                            <i class="bi bi-chat-dots"></i> Messages
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
                         <a class="nav-link" href="<?php echo BASE_URL; ?>/profile.php">
                             <i class="bi bi-person"></i> Profile
                         </a>
